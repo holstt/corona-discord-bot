@@ -1,3 +1,5 @@
+<img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
+
 # CoronaStats
 RESTful webservice that collects and stores data about COVID-19. 
 
@@ -15,10 +17,5 @@ Either run the project natively or use the provided Dockerfile.
 
 > TODO: 
 > - Native + Docker command
-
-
-## Usage 
-
-> TODO: 
 > - Configure frequency
 > - Confgigure db
