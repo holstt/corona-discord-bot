@@ -1,6 +1,5 @@
-<img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
-
 # CoronaStats
+![dotnet](https://img.shields.io/badge/asp--net--core-3.1-blue)
 RESTful webservice that collects and stores data about COVID-19. 
 
 ## About
@@ -19,3 +18,7 @@ Either run the project natively or use the provided Dockerfile.
 > - Native + Docker command
 > - Configure frequency
 > - Confgigure db
+
+## Project TODO
+- [ ] Push code to repo
+- [ ] Migrate to .NET 5
