@@ -1,5 +1,6 @@
 # CoronaStats
 ![dotnet](https://img.shields.io/badge/asp--net--core-3.1-blue)
+
 RESTful webservice that collects and stores data about COVID-19. 
 
 ## About
