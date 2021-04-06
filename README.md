@@ -9,7 +9,7 @@ The service uses the [INSERT REF] API to get the latest data about COVID-19. Thi
 
 However, [INSERT REF] API only provides a few key figures. For Denmark, it is possible to get additional data as the service uses the [INSERT DST] API and scrapes the [INSERT CoronaWebsite] website. 
 
-This service only collects and stores data. By using [REF TO CHARTSERVICE] it is possible to visualize the data in beautiful charts! 
+This service only collects and stores data. By using the [chart-service](https://github.com/roedebaron/chart-service), it is possible to visualize the data in beautiful charts! 
 
 ## Getting Started
 
