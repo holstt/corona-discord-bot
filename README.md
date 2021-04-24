@@ -37,6 +37,7 @@ Clone the project:
 > - Configure frequency
 > - Confgigure db
 > - Docker Compose with chart service 
+> - Discord bot integration?
 
 ## Project TODO
 - [ ] Push code to repo
