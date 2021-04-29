@@ -6,9 +6,9 @@ Discord bot that generates and shows the latest corona charts for every country.
 
 ## About
 
-The Discord bot is developed as a microservice architecture: 
+The Discord bot is developed using a microservice architecture. 
 
-### Microservice: corona-data-service
+#### Microservice: corona-data-service
 
 RESTful webservice that collects and stores data about COVID-19. 
 
@@ -18,13 +18,13 @@ However, the disease.sh API only provides a few key figures. For Denmark, it is 
 
 This service only collects, scrapes and stores data. 
 
-### Microservice: chart-service
+#### Microservice: chart-service
 
 Node.js service using the popular chart.js library to construct and render charts server side. Gets data from **corona-data-service**. 
 
-### Microservice: discord-bot
+#### Microservice: discord-bot
 
-Responsible for recieving discord commands, forward the request to **chart-service** and finally returning the result to the client (discord guild).  
+Responsible for recieving discord commands, forwarding the request to **chart-service** and finally returning the result to the client (discord guild).  
 
 > TODO: 
 > - Describe architecture 
@@ -39,15 +39,13 @@ Place the tokens in `appsettings.Production.json` and `appsettings.Development.j
 
 Logging is performed through Serilog and can be configured in `appsettings.json`. However, you can leave this configuration as is.
 
-### Running the bot
+### Running with Docker Compose 🐳
 
 The easiest way to run the bot is using Docker Compose. A `docker-compose.yml` is provided together with a `Dockerfile` for all three services.
 
 Clone the project: 
 1. `git clone https://github.com/roedebaron/discord-corona-bot.git`
 2. `cd discord-corona-bot
-
-#### Running with Docker Compose 🐳
 3. Run `docker-compose up .` to build and run all services
 
 
