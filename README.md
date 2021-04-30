@@ -24,10 +24,11 @@ Node.js service using the popular chart.js library to construct and render chart
 
 #### Microservice: discord-bot
 
-Responsible for recieving discord commands, forwarding the request to **chart-service** and finally returning the result to the client (discord guild).  
+Responsible for recieving discord commands, forwarding the request to **chart-service** and finally returning the result to the client (discord guild).
 
-> TODO: 
-> - Describe architecture 
+#### Microservice: database
+
+Postgres database for storing corona data. 
 
 ## Getting Started
 
@@ -45,7 +46,7 @@ The easiest way to run the bot is using Docker Compose. A `docker-compose.yml` i
 
 Clone the project: 
 1. `git clone https://github.com/roedebaron/discord-corona-bot.git`
-2. `cd discord-corona-bot
+2. cd `discord-corona-bot`
 3. Run `docker-compose up .` to build and run all services
 
 
