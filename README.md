@@ -36,7 +36,7 @@ Running the bot requires a Discord Bot Token. It is recommended to obtain a two 
 
 ### Configuration
 
-Place the tokens in `appsettings.Production.json` and `appsettings.Development.json` respectively. Alternatively set the token as an environment variable. 
+Place the tokens in `discord-bot/DiscordBot.Commands/Config/appsettings.Production.json` and `appsettings.Development.json` respectively. Alternatively set the token as an environment variable. 
 
 Logging is performed through Serilog and can be configured in `appsettings.json`. However, you can leave this configuration as is.
 
